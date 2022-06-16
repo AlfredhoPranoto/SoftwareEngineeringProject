@@ -1,75 +1,14 @@
-.content{
-    position: relative;
-    width: 428px;
-    height: 800px;
-    background-color: #B2FFB0;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.title1{
-    margin: 0;
-    padding-top: 50px;
-    font-family: 'Parisienne';
-    text-align: center;
-    font-size: 50px;
-}
-
-.welcome1{
-    margin-top: 40px;
-    font-family: 'Comfortaa' ;
-    text-align: center;
-    font-size: 30px;
-}
-
-.form1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
-    padding: 70px;
-}
-
-.form-content{
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-}
-.form-content input{
-    padding: 10px;
-    
-
-}
-body{
-    margin: 0;
-}
-
-.imgs1{
-    margin-top: 25px;
-    margin-bottom: 15px;
-    width: 120px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.imgs2{
-width: 100px;   
-}
-
-.imgs3{
-    width: 380px;
-    height: auto;
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.signupb{
-    width: 130%;
-}
-
-.signup1{
+.cart{
+    padding-top: 40px;
+    margin-left: 30px;
+    font-size: 30;
     font-family: 'Comfortaa';
-    font-size: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
