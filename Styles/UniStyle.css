@@ -11,7 +11,7 @@
 .contentrecipe{
     position: relative;
     width: 428px;
-    height: 928px;
+    height: 1200px;
     background-color: #B2FFB0;
     margin-left: auto;
     margin-right: auto;
@@ -159,3 +159,17 @@ width: 100px;
     margin-left: 20px;
     resize: none;
   }
+
+  .cart{
+    padding-top: 40px;
+    margin-left: 30px;
+    font-size: 30;
+    font-family: 'Comfortaa';
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
