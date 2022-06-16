@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/UniStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>Post Your Recipe</title>
+</head>
+<body>
+    
+    <div class="contentrecipe">
+        <div class="title">
+            <h1 class="title1">House&Cook</h1>
+        </div>
+       
+        <div class="title">
+            <h2 class="title2">Post Your Recipe</h2>
+        </div>
+
+        <div class title="">
+            <h3 class="title3">Nama Masakan</h3>
+        </div>
+
+        <div class="rectangle1">
+            <input class="input1" type="text">
+        </div>
+
+        <div class title="">
+            <h3 class="title3">Foto Masakan</h3>
+        </div>
+
+        <div class="form-input">
+            <div class="preview">
+                <img id="file-preview">
+              </div>
+              <input class="title3" type="file" id="fileacpt" accept="image/*" onchange="previewImage(event);">
+         </div>
+          
+         <div class title="">
+            <h3 class="title3">Masukkan Bahan</h3>
+        </div>
+
+         <div class="rectangle1">
+            <textarea class="text1" name="bahan" id="" cols="45" rows="8"></textarea>
+        </div>
+
+        <div class title="">
+            <h3 class="title3">Langkah Memasak</h3>
+        </div>
+        
+         <div class="rectangle1">
+            <textarea class="text1" name="langkahmasak" id="" cols="45" rows="10"></textarea>
+        </div>
+        
+        <div class="rectangle1">
+            <input class="submit" type="submit">
+        </div>
+              
+        
+    </div>
+    <script src="script/PostRecipe.js"> </script>
+</body>
+</html>
