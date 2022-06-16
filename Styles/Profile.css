@@ -1,0 +1,66 @@
+.back{
+    width: 428px;
+    height: 750px;
+    background-color: #B2FFB0;
+    margin: auto;
+}
+.box{
+    width: 428px;
+    padding-top: 10px;
+    text-align: center;
+}
+.box-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.box h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.form{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+form input{
+    display: block;
+    font-size: initial;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+form label{
+    font-size: 20px;
+}
+
+.signout{
+    width: 100px;
+    height: auto;
+    margin-left: 45px;
+}
+
+.cart{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-family: 'Comfortaa';
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
