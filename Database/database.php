@@ -16,7 +16,7 @@
               $query->bind_param("ssiss",$username,$email,$phone,$password,$dob);
               $query->execute();
               echo "Success Signing Up!";
-              echo '<meta http-equiv="refresh" content="0;url=http://localhost/House&Cook%20Project/Choosecategory.html" />';
+              echo '<meta http-equiv="refresh" content="2;url=http://localhost/House&Cook%20Project/login.html" />';
               $query->close();
               $con->close();
             }
