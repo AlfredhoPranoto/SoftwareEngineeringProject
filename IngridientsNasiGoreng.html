@@ -1,47 +1,55 @@
 <head>
-    <title> House & Cook </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Langkah Memasak Nasi Goreng</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
  </head>
- <body>
-    <div class="title">
-        <h1> House & Cook </h1>
-    </div>
-    <div class="navbar"> 
-        <input type="text" placeholder="Search...">
-    </div>
-    <div class="text">
-        <h2> 
+ <body> 
+    <div class="contentab">
+        <div class="cart">
             <a href="Home1.html">
-                <img class="icon" src="images/back-icon-png-15.jpg">
+                <img class="icon" src="Assets/back-icon-png-15.jpg">
             </a>
-             Recommended for you 
-            <img class="icon" src="images/shopping_cart_PNG38.png">
-        </h2>
-    </div>
-    <div class="ingridients">
-        <br> 
-        <img class="icon" src="images/person.png"> 
-        Budi Kusuma 
-        </br>
-        <img class="food" src="images/resep-nasi-goreng-sosis-ala-warung-bhakti_43.jpeg">
-        <br> Nasi Goreng </br>
+               
+        </div>
+        <div class="titleab">
+            <h1> House & Cook </h1>
+        </div>
+        <div class="navbar"> 
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="text">
+            <h2 style="margin-left: 4%"> 
+                 Recommended for you 
+                <img class="icon" src="Assets/shopping_cart_PNG38.png">
+            </h2>
+        </div>
+        <div class="ingridients">
+            <br> 
+            <a href="./profile.html"><img class="icon" src="Assets/person.png">  </a> 
+            Budi Kusuma 
+            </br>
+            <img class="food" src="Assets/resep-nasi-goreng-sosis-ala-warung-bhakti_43.jpeg">
+            <br> Nasi Goreng </br>
+            <br> </br>
+            <br> Bahan: </br>
+            <br> -1 butir telur </br>
+            <br> -250 gram nasi </br>
+            <br> -1 sdt garam </br>
+            <br> -30 gram daging ayam </br>
+            <br> -2 sdm kecap manis </br>
+            <br> -5 gram cabe rawit</br>
+            <br> Langkah pembuatan: </br>
+            <br></br>
+            <video class="video" controls="controls">
+                <source src="videos/Cara Membuat Nasi Goreng Sederhana.mp4" type="video/mp4">
+            </video>
+        </div>
         <br> </br>
-        <br> Bahan: </br>
-        <br> -1 butir telur </br>
-        <br> -250 gram nasi </br>
-        <br> -1 sdt garam </br>
-        <br> -30 gram daging ayam </br>
-        <br> -2 sdm kecap manis </br>
-        <br> -5 gram cabe rawit</br>
-        <br> Langkah pembuatan: </br>
-        <br></br>
-        <video width="500px" height="400px" controls="controls">
-            <source src="videos/Cara Membuat Nasi Goreng Sederhana.mp4" type="video/mp4">
-        </video>
+        <a href="OrderNasiGoreng.html">
+            <button type="button" class="order">
+                Order Ingredient
+            </button>
+        </a>
     </div>
-    <br> </br>
-    <a href="OrderNasiGoreng.html">
-        <button type="button" class="order">
-            Order Ingridient
-        </button>
-    </a>
+</body>  
