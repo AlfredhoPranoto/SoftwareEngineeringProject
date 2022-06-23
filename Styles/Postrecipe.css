@@ -1,4 +1,78 @@
+.contentrecipe{
+    position: relative;
+    width: 428px;
+    height: 1200px;
+    background-color: #B2FFB0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.title1{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Parisienne';
+    text-align: center;
+    font-size: 50px;
+}
+
+.title2{
+    padding-top: 20px;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.title3{
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.form-content input{
+    padding: 10px;
+    width: 200px;
+
+}
+.form-input {
+    width:300px;
+    padding:20px;
+    background:#fff;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .form-input img {
+    width: 80%;
+    height: auto;
+    display:none;
+  }
+
+  input[type=file]{
+    cursor:pointer;
+  }
+
+  textarea {
+    margin-left: 20px;
+    resize: none;
+  }
+.input1{
+    padding: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+  }
 .cart{
     padding-top: 40px;
     margin-left: 30px;
