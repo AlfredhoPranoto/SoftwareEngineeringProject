@@ -39,6 +39,14 @@ a{
     vertical-align: middle;
 }
 
+.cart{
+    padding-top: 40px;
+    margin-left: 30px;
+    font-size: 30;
+    font-family: 'Comfortaa';
+}
+
+
 .ingredients{
     margin-left: 25px;
     width: 380px;
