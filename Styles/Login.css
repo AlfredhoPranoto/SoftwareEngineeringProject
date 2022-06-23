@@ -8,7 +8,9 @@
     margin-right: auto;
 }
 
-
+a{
+    text-decoration: none;
+}
 .title1{
     margin: 0;
     margin-bottom: 20px;
