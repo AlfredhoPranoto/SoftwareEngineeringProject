@@ -1,0 +1,61 @@
+
+.content{
+    position: relative;
+    width: 428px;
+    height: 800px;
+    background-color: #B2FFB0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title1{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Parisienne';
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.check{
+    padding-bottom: 20px;
+}
+
+
+.formsignup{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+    padding: 100px;
+}
+
+.form-content{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-content input{
+    padding: 10px;
+    width: 200px;
+
+}
+.form-contentpassword input{
+    padding: 10px;
+    width: 200px;
+
+}
+body{
+    margin: 0;
+}
+ 
+.submit {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
