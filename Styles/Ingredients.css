@@ -11,7 +11,9 @@
 .navbar{
     margin-left: 70px;
 }
-
+a{
+    text-decoration: none;
+}
 .title{
     font-family: 'Parisienne';
     text-align: center;
