@@ -18,7 +18,9 @@
     text-align: center;
 }
 
-
+a{
+    text-decoration: none;
+}
 .navbar input[type=text]{
     border: 1px solid #ccc;
     float: none;
