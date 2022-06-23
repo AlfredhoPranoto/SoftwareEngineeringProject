@@ -16,6 +16,9 @@
     font-size: 50px;
 }
 
+a{
+    text-decoration: none;
+}
 .title2{
     padding-top: 20px;
     font-family: 'Comfortaa';
